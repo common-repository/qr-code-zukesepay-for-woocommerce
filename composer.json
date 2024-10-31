@@ -1,0 +1,26 @@
+{
+    "name": "weef/woo-zukesepay",
+    "description": "A plugin that allows the integration between the ZukesePay payment gateway and Woocommerce",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Zukese Pay",
+            "email": "contato@zukese.com"
+        },
+        {
+            "name": "Weef Interativa",
+            "email": "contato@weef.com.br"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/woocommerce": ">=4.4"
+    }
+}
